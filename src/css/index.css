@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Swanky+and+Moo+Moo&display=swap');
+/*font-family: 'Swanky and Moo Moo', cursive;*/
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    background-image: radial-gradient(#12ABD0, #015F9C);
+    background-attachment: fixed;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2rem;
+    padding-right: 5rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.menu__item, .menu__item__homer{
+    color: #FCE006;
+    font-family: 'Swanky and Moo Moo', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+    padding-right: 7.5rem;
+    cursor: pointer;
+}
+
+.menu__item__homer{
+    border: 0;
+    border-radius: 5rem;
+    padding-inline: 2rem;
+    color: #015F9C;
+    background-color: #FCE006;
+}
+.menu__item__homer:hover{
+    background-color: #a7940b;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 9rem;
+}
+
+.main__logo{
+    height: 25rem;
+}
+
+.main__family{
+    height: 50rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.mouse{
+    height: 5rem;
+}
