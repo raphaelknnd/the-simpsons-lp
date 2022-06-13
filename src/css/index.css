@@ -55,10 +55,10 @@ header{
     padding-inline: 2rem;
     color: #015F9C;
     background-color: #FCE006;
+    cursor: pointer;
 }
 .menu__item__homer:hover{
     background-color: #a7940b;
-    cursor: pointer;
 }
 
 .menu__item:hover{
