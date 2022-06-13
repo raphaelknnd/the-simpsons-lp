@@ -58,6 +58,7 @@ header{
 }
 .menu__item__homer:hover{
     background-color: #a7940b;
+    cursor: pointer;
 }
 
 .menu__item:hover{
