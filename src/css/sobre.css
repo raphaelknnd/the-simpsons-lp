@@ -11,6 +11,14 @@
     font-size: 62.5%;
 }
 
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #015F9C;
+}
+
 body{
     display: flex;
     background-image: radial-gradient(#E2E2E2, #DFDFDF);
@@ -58,6 +66,11 @@ header{
 }
 .menu__item__homer:hover{
     background-color: #023353;
+}
+
+.menu__item:hover{
+    background-color: #a7630b;
+    cursor: pointer;
 }
 
 .content{

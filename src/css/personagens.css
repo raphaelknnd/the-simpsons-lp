@@ -7,16 +7,16 @@
     padding: 0;
 }
 
-:root{
-    font-size: 62.5%;
-}
-
 a{
     text-decoration: none;
 }
 
 a:visited{
-    color: #FCE006;
+    color: #015F9C;
+}
+
+:root{
+    font-size: 62.5%;
 }
 
 body{
@@ -24,15 +24,22 @@ body{
     background-image: radial-gradient(#12ABD0, #015F9C);
     background-attachment: fixed;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 
 header{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding-top: 2rem;
+    padding-bottom: 2rem;
     padding-right: 5rem;
+    background-color: #FCE006;
+}
+
+.logo{
+    padding-left: 4rem;
+    height: 5rem;
 }
 
 .menu{
@@ -42,22 +49,24 @@ header{
 }
 
 .menu__item, .menu__item__homer{
-    color: #FCE006;
+    color: #015f9c;
     font-family: 'Swanky and Moo Moo', cursive;
     font-weight: 400;
     font-size: 3rem;
     padding-right: 7.5rem;
+    cursor: pointer;
 }
 
 .menu__item__homer{
     border: 0;
     border-radius: 5rem;
     padding-inline: 2rem;
-    color: #015F9C;
-    background-color: #FCE006;
+    color: #FCE006;
+    background-color: #015f9c;
 }
+
 .menu__item__homer:hover{
-    background-color: #a7940b;
+    background-color: #023353;
 }
 
 .menu__item:hover{
@@ -67,24 +76,43 @@ header{
 
 .content{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 9rem;
+    padding-top: 5rem;
+    padding-right: 6rem;
 }
 
-.main__logo{
-    height: 25rem;
+.content__text{
+    color: #FCE006;
+    font-family: 'Swanky and Moo Moo', cursive;
+    padding: 10rem;
+    padding-right: 20rem;
 }
 
-.main__family{
-    height: 50rem;
+.content__text__title{
+    font-size: 7rem;
 }
 
-footer{
+.content__text__about{
+    font-size: 2.7rem;
+}
+
+.content__images{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 5rem;
+    padding-left: 10rem;
 }
 
-.mouse{
-    height: 5rem;
+.content__images__div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.person{
+    height: 20rem;
+    padding: 2rem;
 }
